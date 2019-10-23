@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Raleway&display=swap');
+
+
+img {
+  width: 50%
+}
+.rotateImage {
+  -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari 3-8 */
+    transform: rotate(90deg);
+
+}
+
+body {
+  background-color : white;
+ }
+
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: black;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+
+  h3, li a {
+    font-size: 25px;
+    line-height: 3;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    color: white;
+  }
+
+
+    h1 {
+      font-size: 45px;
+      line-height: 4;
+      text-align: center;
+      font-family:  'Liu Jian Mao Cao', cursive;
+    }
+
+    h2 {
+      font-size: 25px;
+      line-height: 4;
+      text-align: left;
+      font-family:  'Liu Jian Mao Cao', cursive;
+    }
+
+  main img {
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+
+  }
+
+.box1 {
+  background: orange;
+}
+
+.box2 {
+background: red;
+
+}
+
+.box3{
+  background: darkgreen;
+}
