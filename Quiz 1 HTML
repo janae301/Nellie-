@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="description" content=" This is a quiz ">
+    <meta name="keywords" content="quiz, layout, grid">
+    <meta name="author" content="Jeannell N.">
+    <meta name="viewpoint" content='width=device"-width, initial-scale=1.0'>
+    <title> Quiz 1 </title>
+  <link rel="stylesheet" href="quiz1.css" type="text/css">
+    </head> 
+    <body> 
+      <footer> 
+        <header> 
+          <nav>
+          </nav>
+        </body>
+      </header>
+      <main>
+        <div class="Section 1">
+             <h1> Section 1 </h1> 
+        </div>
+    </main>
+    <div class="Section 2">
+        <h2> Section 2 </h2>  
+    </div>
+    <main> 
+      <div class="Section 3">
+         <h3>Section 3</h3>
+      </div>
+    </main>
+ <main>
+
+ </main>
+ </footer> 
