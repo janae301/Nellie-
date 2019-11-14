@@ -15,6 +15,16 @@ body {
   background-color : white;
  }
 
+/*screen reader only*/
+.hidden{
+position: absolute; 
+ top: auto; 
+ left: 1px 
+ width: 100px;
+ height: 100px;
+ overflow: hidden; 
+}
+/* end of screen reader only rule*/
 ul{
   list-style-type: none;
   display: flex;
