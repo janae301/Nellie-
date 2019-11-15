@@ -14,15 +14,31 @@ img {
 body {
   background-color : white;
  }
+/* start of grid for look */
+.gridlook {
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 200px 200px 1fr 1fr ;
+  grid-gap: 20px;
+}
 
+h1.fullwidth {
+  grid-column-start: span 4;
+}
+
+p.fullwidth {
+  grid-column-start: span 4;
+}
+/* End of grid for look  */
 /*screen reader only*/
 .hidden{
-position: absolute; 
- top: auto; 
- left: 1px 
+position: absolute;
+ top: auto;
+ left: 1px
  width: 100px;
  height: 100px;
- overflow: hidden; 
+ overflow: hidden;
 }
 /* end of screen reader only rule*/
 ul{
@@ -46,21 +62,21 @@ ul li {
   }
 
 
-    h1 {
+    * h1 {
       font-size: 45px;
       line-height: 4;
       text-align: center;
       font-family:  'Liu Jian Mao Cao', cursive;
     }
 
-    h2 {
+    * h2 {
       font-size: 25px;
       line-height: 4;
       text-align: left;
       font-family:  'Liu Jian Mao Cao', cursive;
     }
 
-  main img {
+  * main img {
     display: block;
       margin-left: auto;
       margin-right: auto;
@@ -73,7 +89,7 @@ ul li {
 }
 
 .box2 {
-background: red;
+background: orange;
 
 }
 
