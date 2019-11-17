@@ -1,1 +1,75 @@
+* {
+padding: 0;
+margin: 0;
+  box-sizing: border-box;
+}
 
+*body {
+  height: 200vh;
+    width: 100vw;
+}
+
+*main { 
+ height: 100;
+   width: 100%;
+}
+
+* h1 {
+    font-size: 2em;
+      font-color: white;
+      font-weight: 600;
+    }
+
+    * h2 {
+      font-size: 2em;
+      font-color: white;
+      font-weight: 600;
+    }
+
+.section1{
+  border-style: solid;
+  border-width: 4px;
+}
+
+.section2{
+  border-style: solid;
+  border-width: 4px;
+}
+
+.section3{
+  border-style: solid;
+  border-width: 4px;
+}
+
+.section1 {
+  background: green;
+}
+
+.section2 {
+background: blue;
+
+}
+
+.section3 {
+  background: orange;
+}
+
+ /* this will hide all divs on the page */
+div {  
+  top: 
+  display:none;
+  overflow: hidden; 
+  left: -100000px
+  width: 1px
+  height: 1px 
+}
+
+div { 
+  width: 100%
+  height: 100%
+} 
+
+
+
+
+  
