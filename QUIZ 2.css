@@ -69,6 +69,12 @@ div {
   height: 100%
 } 
 
+body {
+ grid-template-columns:  100px  1fr 80px ; 
+}
+
+
+
 
 
 
