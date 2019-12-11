@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Raleway&display=swap');
 
-
+*{
+  margin: 0;
+  padding: 0;
+}
 img {
   width: 50%
 }
@@ -11,16 +14,23 @@ img {
 
 }
 
+iframe {
+  width: 100%;
+  height: auto;
+}
+
 body {
   background-color : white;
  }
 /* start of grid for look */
 .gridlook {
-  
+  width: 100vw;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr ;
-  grid-template-rows: 200px 200px 1fr 1fr ;
+  grid-template-columns: repeat(4, 1fr) ;
+  grid-template-rows: 200px 200px;
+  overflow: hidden;
   grid-gap: 20px;
+
 }
 
 h1.fullwidth {
@@ -44,6 +54,7 @@ position: absolute;
 ul{
   list-style-type: none;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   background: black;
@@ -95,4 +106,25 @@ background: orange;
 
 .box3{
   background: darkgreen;
+}
+
+@media (max-width: 600px) {
+
+ul{
+  flex-direction: column;
+}
+
+
+
+footer {
+  font-style: italic;
+}
+
+* main img {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+  }
 }
